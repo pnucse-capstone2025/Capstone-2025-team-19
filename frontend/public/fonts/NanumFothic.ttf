@@ -1,0 +1,2 @@
+const fontBytes = await fetch("/fonts/NanumGothic.ttf").then(res => res.arrayBuffer());
+const customFont = await pdfDoc.embedFont(fontBytes);

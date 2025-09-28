@@ -1,0 +1,129 @@
+# 각 메서드별 데이터 입출력 정의.
+#########################################################################################################
+method=POST, route='/pdf', 통신=httpx 
+def handle_pdf():
+#########################################################################################################
+# input:
+async def handle_pdf(
+    file: UploadFile = File(...),
+    userId: str = Form(...),
+    fileId: Optional[str] = Form(None),
+    session_id: str = Form(...)
+):
+
+# output:
+json { 
+  "ok": true, 
+  "userId": "u123", 
+  "fileId": "f456",
+  "sessonIdD" : "u123", 
+}
+
+# 기능
+문서 이진파일과 유저번호를 받고, 작업큐에 Context생성 작업을 등록하고, 해당 유저에게 Context를 반환한다.
+
+
+
+#########################################################################################################
+method=POST, route='/context', 통신=httpx, 자바로 push
+def handle_input_text():
+#########################################################################################################
+# input:
+{
+  "userId": 1,
+  "sessionId": "sess_A",
+  "fileId": "file_abc123",     // 업로드된 강의자료 식별자
+  "lang": "ko-KR"
+}
+# output:
+// 응답(202 Accepted)
+"totalNum" : 2,
+"contexts" :
+[
+	{
+	  "success": true,
+	  "userIdD" : "user1"
+	  "sessionId": "sess_A",
+	  "summary": "메시지 큐를 활용하여 병렬 처리 성능을 개선한다. STT와 웹소켓 기반 통신 구조를 결합해 다중 사용자 환경에 대응한다.", 
+	  "keywords": [
+	    "스레드",
+	    "웹소켓",
+	    "구글 STT",
+	    "메시지 큐",
+	    "실시간 처리"
+	  ]
+	},
+	{
+	  "success": true,
+	  "userIdD" : "user2"
+	  "sessionId": "sess_A",
+	  "summary": "메시지 큐를 활용하여 병렬 처리 성능을 개선한다. STT와 웹소켓 기반 통신 구조를 결합해 다중 사용자 환경에 대응한다.", 
+	  "keywords": [
+	    "스레드",
+	    "웹소켓",
+	    "구글 STT",
+	    "메시지 큐",
+	    "실시간 처리"
+	  ]
+	}
+]
+
+
+#########################################################################################################
+method=POST, route='/text', 통신=httpx 
+def handle_pdf():
+#########################################################################################################
+# input:
+{
+	"userId" : 1,
+  "sessionId": "sess_A",       // 자바 세션과 1:1 매핑되는 식별자
+  "seq": 137,                  // 세션 내 단조증가 시퀀스(주석 스냅샷 번호)
+  "text": "STT 누적 텍스트 내용",  // 주석 생성 대상 텍스트(스냅샷)
+  "lang": "ko-KR",
+  "requestId": "uuid-req-1"    // 같은 작업의 중복 제출을 방지하는 키 (멱등키)
+}
+# output:
+{
+	"success": true,
+  "status": "queued",
+  "jobId": "job_abc123",
+  "sessionId": "sess_A",
+  "seq": 137
+}
+
+#########################################################################################################
+method=POST, route='/callbacks/annotations', 통신=httpx, 자바로 push 
+def push_output_texts():
+#########################################################################################################
+# input:
+None
+# output:
+// callback body (python -> Java)
+{
+  "totalNum": 2, // 한번에 자바로 보낼 응답 개수 (시연때는 5, 배포때는 50~100정도 될거같습니다) 
+  "results": [
+    {
+	    "userId" : 1,
+      "sessionId": "sess_A",
+      "jobId": "job_abc123",
+      "seq": 137,
+      "audioText" : "전처리 완료한 음성 인식 원본 텍스트내용1"
+      "annotation": "• 핵심 요점 …",
+      "page": 5,
+      "answerState": 1,
+      "requestId": "uuid-req-1"
+    },
+    {
+      "userId" : 2,
+      "sessionId": "sess_B",
+      "jobId": "job_abc1234",
+      "seq": 137,
+      "audioText" : "전처리 완료한 음성 인식 원본 텍스트내용2"
+      "annotation": "• 핵심 요점 …",
+      "page": 5,
+      "answerState": 2,
+      "requestId": "uuid-req-2"
+    }
+  ]
+
+}

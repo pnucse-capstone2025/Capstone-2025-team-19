@@ -1,0 +1,1843 @@
+.div4 {
+    width: 100px;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    height: 28px;
+    flex-shrink: 0;
+}
+.div5 {
+    width: 174px;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+    display: inline-block;
+    height: 20px;
+    flex-shrink: 0;
+}
+.div3 {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frame {
+    width: 12px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.svg {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 12px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.i {
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 12px;
+    height: 20px;
+}
+.frameChild {
+    width: 15px;
+    position: relative;
+    height: 15px;
+    object-fit: contain;
+}
+.div7 {
+    width: 64px;
+    position: relative;
+    display: inline-block;
+    height: 17px;
+    flex-shrink: 0;
+}
+.polygonParent {
+    position: absolute;
+    top: 12px;
+    left: 17.69px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.button {
+    position: absolute;
+    top: 0px;
+    left: 186.31px;
+    border-radius: 9999px;
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    box-sizing: border-box;
+    width: 122.5px;
+    height: 42px;
+}
+.div6 {
+    position: absolute;
+    top: 17px;
+    left: 1019px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 309px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #374151;
+}
+.div2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 1360px;
+    height: 75px;
+}
+.child {
+    width: 80px;
+    position: relative;
+    height: 100px;
+}
+.pdf2 {
+    align-self: stretch;
+    position: relative;
+}
+.div10 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    color: #808080;
+}
+.div9 {
+    position: absolute;
+    top: 438px;
+    left: 407px;
+    width: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.pdf1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f3f4f6;
+    width: 1088px;
+    height: 1014px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.ai {
+    position: absolute;
+    top: 14.88px;
+    left: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 83px;
+    height: 24px;
+}
+.pdf3 {
+    position: absolute;
+    top: 42.8px;
+    left: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+    display: inline-block;
+    width: 177px;
+    height: 20px;
+}
+.div12 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 271px;
+    height: 81px;
+}
+.div13 {
+    position: absolute;
+    top: 81px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 271px;
+    height: 856px;
+}
+.div16 {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    border-radius: 9999px;
+    background-color: #a8c7fa;
+    width: 12px;
+    height: 12px;
+    opacity: 0.74;
+}
+.div17 {
+    position: absolute;
+    top: -1.2px;
+    left: 20px;
+    line-height: 20px;
+    display: inline-block;
+    width: 114px;
+    height: 20px;
+}
+.div15 {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 239px;
+    height: 20px;
+}
+.div19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9999px;
+    background-color: #a8c7fa;
+    width: 4px;
+    height: 6px;
+}
+.div18 {
+    position: absolute;
+    top: 45px;
+    left: 16px;
+    border-radius: 9999px;
+    background-color: #e5e7eb;
+    width: 239px;
+    height: 6px;
+}
+.div14 {
+    position: absolute;
+    top: 937px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 271px;
+    height: 67px;
+    font-size: 14px;
+    color: #4b5563;
+}
+.div11 {
+    position: absolute;
+    top: 0px;
+    left: 1088px;
+    background-color: #fff;
+    border-left: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 272px;
+    height: 1292px;
+    overflow: hidden;
+    text-align: left;
+    color: #1f2937;
+}
+.div21 {
+    position: absolute;
+    top: 25px;
+    left: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 286.1px;
+    height: 24px;
+}
+.svgIcon {
+    width: 24px;
+    height: 24px;
+}
+.div23 {
+    width: 146px;
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    flex-shrink: 0;
+}
+.svgParent {
+    position: absolute;
+    top: 8px;
+    left: 28.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.div22 {
+    position: absolute;
+    top: 17px;
+    left: 1106.5px;
+    border-radius: 8px;
+    background-color: #a8c7fa;
+    width: 229.5px;
+    height: 40px;
+}
+.div20 {
+    position: absolute;
+    top: 1014px;
+    left: 0px;
+    background-color: #fff;
+    border-top: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 1360px;
+    height: 73px;
+    color: #fff;
+}
+.div8 {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1360px;
+    height: 1087px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #303030;
+}
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1360px;
+    height: 1162px;
+    overflow: hidden;
+}
+.frame1 {
+    position: absolute;
+    top: 163.5px;
+    left: 0px;
+    width: 17.5px;
+    height: 20px;
+    overflow: hidden;
+}
+.icon {
+    width: 40px;
+    position: relative;
+    height: 53px;
+}
+.frameIcon {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div26 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    height: 24px;
+    flex-shrink: 0;
+}
+.frameParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.frameIcon1 {
+    width: 22.5px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: #a8c7fa;
+}
+.frameIcon2 {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 20px;
+    flex-shrink: 0;
+}
+.div28 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    height: 21px;
+    flex-shrink: 0;
+}
+.frameContainer {
+    width: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.parent {
+    position: absolute;
+    top: 3.5px;
+    left: 4px;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 34px;
+}
+.div25 {
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    height: 1053px;
+}
+.button1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 48px;
+    height: 48px;
+}
+.div29 {
+    position: absolute;
+    top: 1366px;
+    left: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 48px;
+    height: 50px;
+}
+.div24 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 80px;
+    height: 1162px;
+    font-size: 12px;
+    color: #9ca3af;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1440px;
+    height: 1162px;
+    overflow: hidden;
+}
+.body {
+    width: 1440px;
+    position: relative;
+    background-color: #f9fafb;
+    height: 1162px;
+}
+.pdf {
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid #ced4da;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1162px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 20px;
+    color: #1f2937;
+    font-family: Inter;
+}
+
+.div4 {
+    width: 191px;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    height: 28px;
+    flex-shrink: 0;
+}
+.week5 {
+    width: 174px;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+    display: inline-block;
+    height: 20px;
+    flex-shrink: 0;
+}
+.div3 {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.span {
+    width: 12px;
+    position: relative;
+    border-radius: 9999px;
+    background-color: #ef4444;
+    height: 12px;
+    opacity: 0.61;
+}
+.div7 {
+    position: absolute;
+    top: -0.1px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 116px;
+    height: 20px;
+}
+.span1 {
+    width: 118.3px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    height: 20px;
+}
+.spanParent {
+    position: absolute;
+    top: 10px;
+    left: 15.81px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.div6 {
+    align-self: stretch;
+    position: relative;
+    border-radius: 9999px;
+    background-color: #eaf2ff;
+    height: 36px;
+}
+.divWrapper {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    width: 170.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.frame {
+    width: 12px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.svg {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 12px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.i {
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 12px;
+    height: 20px;
+}
+.vectorIcon {
+    width: 12px;
+    position: relative;
+    height: 12px;
+}
+.div8 {
+    width: 64px;
+    position: relative;
+    display: inline-block;
+    height: 17px;
+    flex-shrink: 0;
+}
+.vectorParent {
+    position: absolute;
+    top: 13px;
+    left: 19.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.button {
+    position: absolute;
+    top: 0px;
+    left: 186.31px;
+    border-radius: 9999px;
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    box-sizing: border-box;
+    width: 122.5px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+}
+.div5 {
+    position: absolute;
+    top: 17px;
+    left: 1019px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 309px;
+    height: 42px;
+    font-size: 14px;
+    color: #374151;
+}
+.div2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 1360px;
+    height: 75px;
+}
+.neuralNetworksFundamentals {
+    position: absolute;
+    top: 27.56px;
+    left: 211.44px;
+    line-height: 32px;
+    display: inline-block;
+    width: 376px;
+    height: 32px;
+}
+.week51 {
+    position: absolute;
+    top: 71.12px;
+    left: 257.39px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4b5563;
+    display: inline-block;
+    width: 285px;
+    height: 24px;
+}
+.div12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 800px;
+    height: 129px;
+    font-size: 24px;
+}
+.neuralNetworkArchitecture {
+    position: absolute;
+    top: -2.2px;
+    left: 0px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    width: 300px;
+    height: 28px;
+}
+.neuralNetworksTypically {
+    position: absolute;
+    top: 43.12px;
+    left: 0px;
+    line-height: 24px;
+    display: inline-block;
+    width: 274px;
+    height: 24px;
+}
+.inputLayer {
+    position: absolute;
+    top: 0.56px;
+    left: 0px;
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+}
+.li {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 716px;
+    height: 24px;
+}
+.hiddenLayers {
+    position: absolute;
+    top: 0.44px;
+    left: 0px;
+    display: inline-block;
+    width: 115px;
+    height: 24px;
+}
+.li1 {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 716px;
+    height: 24px;
+}
+.outputLayer {
+    position: absolute;
+    top: 0.56px;
+    left: 0px;
+    display: inline-block;
+    width: 94px;
+    height: 24px;
+}
+.li2 {
+    position: absolute;
+    top: 48px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 716px;
+    height: 24px;
+}
+.ul {
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 736px;
+    height: 72px;
+}
+.div14 {
+    position: absolute;
+    top: 400px;
+    left: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 736px;
+    height: 156px;
+}
+.div18 {
+    position: absolute;
+    top: 1.2px;
+    left: 8px;
+    font-weight: 600;
+    display: inline-block;
+    width: 63px;
+    height: 16px;
+}
+.span2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #60a5fa;
+    width: 74.4px;
+    height: 20px;
+}
+.divIcon {
+    position: absolute;
+    top: 0px;
+    left: 205.5px;
+    width: 26.5px;
+    height: 24px;
+}
+.div17 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 232px;
+    height: 24px;
+}
+.div19 {
+    position: absolute;
+    top: -0.1px;
+    left: 0px;
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+}
+.sigmoidReluTanh {
+    position: absolute;
+    top: 19.9px;
+    left: 0px;
+    display: inline-block;
+    width: 223px;
+    height: 20px;
+}
+.div20 {
+    position: absolute;
+    top: 39.9px;
+    left: 0px;
+    display: inline-block;
+    width: 213px;
+    height: 20px;
+}
+.div21 {
+    position: absolute;
+    top: 59.9px;
+    left: 0px;
+    display: inline-block;
+    width: 56px;
+    height: 20px;
+}
+.p {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 232px;
+    height: 80px;
+    font-size: 14px;
+    color: #000;
+}
+.div23 {
+    position: absolute;
+    top: -1.44px;
+    left: 0px;
+    line-height: 16px;
+    display: inline-block;
+    width: 52px;
+    height: 16px;
+}
+.p1 {
+    position: absolute;
+    top: -1.44px;
+    left: 217.34px;
+    line-height: 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+.div22 {
+    position: absolute;
+    top: 128px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 232px;
+    height: 16px;
+    color: #6b7280;
+}
+.div16 {
+    position: absolute;
+    top: 215px;
+    left: 418px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #eff6ff;
+    width: 256px;
+    height: 156px;
+    font-size: 12px;
+    color: #fff;
+}
+.artificialNeurons {
+    position: absolute;
+    top: -2.2px;
+    left: 0px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    width: 192px;
+    height: 28px;
+}
+.anArtificialNeuron {
+    position: absolute;
+    top: 43.12px;
+    left: 0px;
+    line-height: 24px;
+    display: inline-block;
+    width: 178px;
+    height: 24px;
+}
+.inputsXX {
+    position: absolute;
+    top: 0.2px;
+    left: 0px;
+    display: inline-block;
+    width: 148px;
+    height: 24px;
+}
+.li3 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 716px;
+    height: 63px;
+}
+.weightsWW {
+    position: absolute;
+    top: 0.2px;
+    left: 0px;
+    display: inline-block;
+    width: 175px;
+    height: 24px;
+}
+.biasB {
+    position: absolute;
+    top: 0.44px;
+    left: 0px;
+    display: inline-block;
+    width: 58px;
+    height: 24px;
+}
+.activationFunctionF {
+    position: absolute;
+    top: 0.44px;
+    left: 0px;
+    display: inline-block;
+    width: 164px;
+    height: 24px;
+}
+.li6 {
+    position: absolute;
+    top: 72px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 716px;
+    height: 24px;
+}
+.ul1 {
+    position: absolute;
+    top: 76px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 736px;
+    height: 96px;
+}
+.theOutputIs {
+    position: absolute;
+    top: 186.88px;
+    left: 0px;
+    line-height: 24px;
+    display: inline-block;
+    width: 372px;
+    height: 24px;
+}
+.div15 {
+    position: absolute;
+    top: 156px;
+    left: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 736px;
+    height: 212px;
+}
+.introductionToNeural {
+    position: absolute;
+    top: -2.2px;
+    left: 0px;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    width: 329px;
+    height: 28px;
+}
+.neuralNetworksAre {
+    position: absolute;
+    top: 43.76px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    width: 664px;
+    height: 48px;
+}
+.div24 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 736px;
+    height: 92px;
+    font-size: 20px;
+}
+.div13 {
+    position: absolute;
+    top: 129px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 800px;
+    height: 815px;
+    text-align: left;
+}
+.page1Of {
+    position: absolute;
+    top: 16.56px;
+    left: 353.14px;
+    display: inline-block;
+    width: 95px;
+    height: 24px;
+}
+.div25 {
+    position: absolute;
+    top: 944px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 800px;
+    height: 56px;
+    color: #6b7280;
+}
+.div11 {
+    position: absolute;
+    top: 94px;
+    left: 245px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 10px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 800px;
+    height: 1000px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-family: Inter;
+}
+.icon {
+    position: absolute;
+    top: 94px;
+    left: 41px;
+    width: 168.5px;
+    height: 210px;
+    object-fit: cover;
+}
+.icon1 {
+    position: absolute;
+    top: 359px;
+    left: 39px;
+    width: 171.1px;
+    height: 239px;
+    object-fit: cover;
+}
+.icon2 {
+    position: absolute;
+    top: 666px;
+    left: 39px;
+    width: 172.6px;
+    height: 241px;
+    object-fit: cover;
+}
+.label {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.stateLayer {
+    background-color: #d1e3fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+}
+.content {
+    border-radius: 100px;
+    background-color: #ece6f0;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.buildingBlocksstandardbutto {
+    position: absolute;
+    top: 312px;
+    left: 96px;
+    background-color: #d1e3fa;
+    width: 59px;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leadingElement {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.stateLayer1 {
+    align-self: stretch;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+.buildingBlocksmenuListItem {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.content1 {
+    position: absolute;
+    top: 603px;
+    left: 88px;
+    border-radius: 100px;
+    background-color: #ece6f0;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content2 {
+    position: absolute;
+    top: 917px;
+    left: 88px;
+    border-radius: 100px;
+    background-color: #ece6f0;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.icon3 {
+    position: absolute;
+    top: 991px;
+    left: 37px;
+    width: 172.6px;
+    height: 241px;
+    object-fit: cover;
+}
+.content3 {
+    position: absolute;
+    top: 1242px;
+    left: 86px;
+    border-radius: 100px;
+    background-color: #ece6f0;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div26 {
+    position: absolute;
+    top: 95px;
+    left: 18px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #9ca3af;
+    width: 12px;
+    height: 59px;
+}
+.div10 {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    background-color: #f3f4f6;
+    width: 1088px;
+    height: 1292px;
+    overflow: hidden;
+}
+.ai {
+    position: absolute;
+    top: 14.88px;
+    left: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 83px;
+    height: 24px;
+}
+.pdf {
+    position: absolute;
+    top: 42.8px;
+    left: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+    display: inline-block;
+    width: 177px;
+    height: 20px;
+}
+.div28 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 271px;
+    height: 81px;
+    color: #1f2937;
+}
+.div32 {
+    position: absolute;
+    top: 2.2px;
+    left: calc(50% - 31.2px);
+    font-weight: 600;
+    display: inline-block;
+    width: 63px;
+    height: 16px;
+}
+.span3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #a8c7fa;
+    width: 74.4px;
+    height: 20px;
+}
+.divIcon1 {
+    position: absolute;
+    top: 0px;
+    left: 203px;
+    width: 12px;
+    height: 24px;
+}
+.div31 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 215px;
+    height: 24px;
+}
+.div35 {
+    position: absolute;
+    top: 39.9px;
+    left: 0px;
+    display: inline-block;
+    width: 197px;
+    height: 20px;
+}
+.div36 {
+    position: absolute;
+    top: 59.9px;
+    left: 0px;
+    display: inline-block;
+    width: 121px;
+    height: 20px;
+}
+.p2 {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 215px;
+    height: 80px;
+    font-size: 14px;
+    color: #000;
+}
+.div38 {
+    position: absolute;
+    top: -1.44px;
+    left: 0px;
+    line-height: 16px;
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+}
+.p11 {
+    position: absolute;
+    top: -1.44px;
+    left: 200.34px;
+    line-height: 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+.div37 {
+    position: absolute;
+    top: 128px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 215px;
+    height: 16px;
+    color: #6b7280;
+}
+.div30 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #d1e3fa;
+    width: 239px;
+    height: 156px;
+}
+.div41 {
+    position: absolute;
+    top: 2.2px;
+    left: 6px;
+    font-weight: 600;
+    display: inline-block;
+    width: 63px;
+    height: 16px;
+}
+.sigmoidReluTanh1 {
+    position: absolute;
+    top: 19.9px;
+    left: 0px;
+    display: inline-block;
+    width: 197px;
+    height: 20px;
+}
+.div43 {
+    position: absolute;
+    top: 39.9px;
+    left: 0px;
+    display: inline-block;
+    width: 192px;
+    height: 20px;
+}
+.div44 {
+    position: absolute;
+    top: 59.9px;
+    left: 0px;
+    display: inline-block;
+    width: 128px;
+    height: 20px;
+}
+.div39 {
+    position: absolute;
+    top: 188px;
+    left: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #eff6ff;
+    width: 239px;
+    height: 156px;
+}
+.xW {
+    position: absolute;
+    top: -0.1px;
+    left: 0px;
+    display: inline-block;
+    width: 188px;
+    height: 20px;
+}
+.bF {
+    position: absolute;
+    top: 19.9px;
+    left: 0px;
+    display: inline-block;
+    width: 192px;
+    height: 20px;
+}
+.yFwI {
+    position: absolute;
+    top: 39.9px;
+    left: 0px;
+    display: inline-block;
+    width: 203px;
+    height: 20px;
+}
+.div50 {
+    position: absolute;
+    top: 59.9px;
+    left: 0px;
+    display: inline-block;
+    width: 86px;
+    height: 20px;
+}
+.div52 {
+    position: absolute;
+    top: -1.44px;
+    left: 0px;
+    line-height: 16px;
+    display: inline-block;
+    width: 51px;
+    height: 16px;
+}
+.div47 {
+    position: absolute;
+    top: 360px;
+    left: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #d1e3fa;
+    width: 239px;
+    height: 156px;
+}
+.mlp {
+    position: absolute;
+    top: -0.1px;
+    left: 0px;
+    display: inline-block;
+    width: 197px;
+    height: 20px;
+}
+.div56 {
+    position: absolute;
+    top: 19.9px;
+    left: 0px;
+    display: inline-block;
+    width: 188px;
+    height: 20px;
+}
+.div57 {
+    position: absolute;
+    top: 39.9px;
+    left: 0px;
+    display: inline-block;
+    width: 184px;
+    height: 20px;
+}
+.div60 {
+    position: absolute;
+    top: -1.44px;
+    left: 0px;
+    line-height: 16px;
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+}
+.p21 {
+    position: absolute;
+    top: -1px;
+    left: 192px;
+    line-height: 16px;
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+}
+.div53 {
+    position: absolute;
+    top: 532px;
+    left: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #eff6ff;
+    width: 239px;
+    height: 156px;
+}
+.div66 {
+    position: absolute;
+    top: 39.9px;
+    left: 0px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+}
+.p6 {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 215px;
+    height: 60px;
+    font-size: 14px;
+    color: #000;
+}
+.p22 {
+    position: absolute;
+    top: -1px;
+    left: 198px;
+    line-height: 16px;
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+}
+.div67 {
+    position: absolute;
+    top: 108px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 215px;
+    height: 16px;
+    color: #6b7280;
+}
+.div61 {
+    position: absolute;
+    top: 704px;
+    left: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #d1e3fa;
+    width: 239px;
+    height: 136px;
+    opacity: 0.9;
+}
+.div29 {
+    position: absolute;
+    top: 81px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 271px;
+    height: 856px;
+    font-size: 12px;
+    color: #fff;
+}
+.div71 {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    border-radius: 9999px;
+    background-color: #a8c7fa;
+    width: 12px;
+    height: 12px;
+    opacity: 0.74;
+}
+.ai1 {
+    position: absolute;
+    top: -1.2px;
+    left: 20px;
+    line-height: 20px;
+    display: inline-block;
+    width: 114px;
+    height: 20px;
+}
+.div70 {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 239px;
+    height: 20px;
+}
+.div73 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9999px;
+    background-color: #a8c7fa;
+    width: 155.3px;
+    height: 6px;
+}
+.div72 {
+    position: absolute;
+    top: 45px;
+    left: 16px;
+    border-radius: 9999px;
+    background-color: #e5e7eb;
+    width: 239px;
+    height: 6px;
+}
+.div69 {
+    position: absolute;
+    top: 937px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 271px;
+    height: 67px;
+    font-size: 14px;
+    color: #4b5563;
+}
+.div74 {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    display: inline-block;
+    width: 64px;
+    height: 17px;
+}
+.button1 {
+    position: absolute;
+    top: 1233px;
+    left: 14px;
+    border-radius: 9999px;
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    box-sizing: border-box;
+    width: 122.5px;
+    height: 42px;
+    text-align: center;
+}
+.wrapper {
+    position: absolute;
+    top: 13px;
+    left: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button2 {
+    position: absolute;
+    top: 1233px;
+    left: 141px;
+    border-radius: 9999px;
+    background-color: #eff6ff;
+    border: 1px solid #d1d5db;
+    box-sizing: border-box;
+    width: 122.5px;
+    height: 42px;
+    text-align: center;
+}
+.page1Of1 {
+    position: absolute;
+    top: 1197px;
+    left: 28px;
+    color: #6b7280;
+    text-align: center;
+    display: inline-block;
+    width: 95px;
+    height: 24px;
+}
+.div27 {
+    position: absolute;
+    top: 0px;
+    left: 1088px;
+    background-color: #fff;
+    border-left: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 272px;
+    height: 1292px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #374151;
+    font-family: Inter;
+}
+.div9 {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1360px;
+    height: 1292px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #49454f;
+    font-family: Roboto;
+}
+.div77 {
+    position: absolute;
+    top: 25px;
+    left: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 286.1px;
+    height: 24px;
+}
+.iIcon {
+    position: absolute;
+    top: 8px;
+    left: 24px;
+    width: 16px;
+    height: 24px;
+}
+.div78 {
+    position: absolute;
+    top: 8.44px;
+    left: 48px;
+    display: inline-block;
+    width: 146px;
+    height: 24px;
+}
+.button3 {
+    position: absolute;
+    top: 17px;
+    left: 1106.5px;
+    border-radius: 8px;
+    background-color: #a8c7fa;
+    width: 229.5px;
+    height: 40px;
+}
+.div76 {
+    position: absolute;
+    top: 1367px;
+    left: 0px;
+    background-color: #fff;
+    border-top: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    width: 1360px;
+    height: 73px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1360px;
+    height: 1440px;
+    overflow: hidden;
+}
+.divIcon6 {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.frame3 {
+    position: absolute;
+    top: 163.5px;
+    left: 0px;
+    width: 17.5px;
+    height: 20px;
+    overflow: hidden;
+}
+.frameIcon {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div80 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    height: 24px;
+    flex-shrink: 0;
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.frameIcon1 {
+    width: 22.5px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frameContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: #a8c7fa;
+}
+.frameIcon2 {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 20px;
+    flex-shrink: 0;
+}
+.div82 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    height: 21px;
+    flex-shrink: 0;
+}
+.frameDiv {
+    width: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.frameParent {
+    position: absolute;
+    top: 3.5px;
+    left: 4px;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 34px;
+}
+.nav {
+    position: absolute;
+    top: 96px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    height: 1270px;
+}
+.button4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 48px;
+    height: 48px;
+}
+.div83 {
+    position: absolute;
+    top: 1366px;
+    left: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 48px;
+    height: 50px;
+}
+.div79 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 80px;
+    height: 1440px;
+    font-size: 12px;
+    color: #9ca3af;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1914px;
+    height: 1440px;
+    overflow: hidden;
+}
+.body {
+    width: 100%;
+    position: relative;
+    background-color: #f9fafb;
+    height: 1440px;
+    text-align: left;
+    font-size: 20px;
+    color: #1f2937;
+    font-family: Inter;
+}
+

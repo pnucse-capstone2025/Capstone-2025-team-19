@@ -1,0 +1,58 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Apple Silicon universal binary cache
+__MACOSX/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+!**/src/main/resources/application-local.properties
+# Google Cloud STT key
+src/main/resources/stt-credentials.json
+stt-credentials.json
+# uploads 파일
+uploads
+
+# build artifacts
+*.jar
+*.zip
+
+.env
