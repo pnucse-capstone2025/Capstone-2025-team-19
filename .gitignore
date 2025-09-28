@@ -1,0 +1,139 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# static files
+/public/video*
+/public/gif*
+*.gif
+*.MP4
+
+# archives
+.speaknote-front.zip
+*.zip
+*.jar
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Apple Silicon universal binary cache
+__MACOSX/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# local properties
+!**/src/main/resources/application-local.properties
+
+# Google Cloud STT key
+src/main/resources/stt-credentials.json
+stt-credentials.json
+
+# uploads
+uploads
+
+# Python artifacts
+data/
+__pycache__/
+*.json
+*.ipynb
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# packaging / build artifacts
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.spec
+
+# custom project dirs
+minwon_front/
+react_test/
+speaknote-client/
