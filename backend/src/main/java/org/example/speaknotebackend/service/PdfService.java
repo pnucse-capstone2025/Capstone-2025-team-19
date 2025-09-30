@@ -139,14 +139,31 @@ public class PdfService {
                     fileHeader, fileBytes, fileTail,
                     endBoundary
             );
+            // 호출 URL 보정: /pdf 경로가 보장되도록 처리
+            String targetUrl = (fastapiBaseUrl == null || fastapiBaseUrl.isBlank())
+                    ? "http://localhost:8000/pdf"
+                    : (fastapiBaseUrl.endsWith("/pdf") ? fastapiBaseUrl : fastapiBaseUrl + "/pdf");
+
+            System.out.println("[PdfService] FastAPI target URL: " + targetUrl);
+
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(fastapiBaseUrl))
+                    .uri(URI.create(targetUrl))
+                    .version(HttpClient.Version.HTTP_1_1)
                     .header("Content-Type", "multipart/form-data; boundary=" + boundary)
+                    .header("Accept", "application/json")
                     .POST(HttpRequest.BodyPublishers.ofByteArray(requestBody))
                     .build();
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            return response.body();
+            int status = response.statusCode();
+            String body = response.body();
+            System.out.println("[PdfService] FastAPI status=" + status + ", body=" + body);
+            // 비-JSON / 에러 상태 보호 반환
+            if (status < 200 || status >= 300) {
+                return "{" +
+                        "\"ok\":false,\"status\":" + status + ",\"body\":\"" + body.replace("\"", "\\\"") + "\"}";
+            }
+            return body;
 
         } catch (Exception e) {
             e.printStackTrace();
