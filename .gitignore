@@ -111,6 +111,8 @@ uploads
 data/
 __pycache__/
 *.json
+!**/package.json
+!**/package-lock.json
 *.ipynb
 *.py[cod]
 *$py.class
