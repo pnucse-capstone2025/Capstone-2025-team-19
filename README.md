@@ -278,7 +278,7 @@ NEXT_PUBLIC_GOOGLE_REDIRECT_URI=http://localhost:8080/auth/google/callback
 ```bash
 # Frontend
 cd frontend
-npm install
+npm install --legacy-peer-deps
 npm run dev   # http://localhost:3000
 
 # Backend
@@ -286,7 +286,7 @@ cd backend
 ./gradlew bootRun  # http://localhost:8080
 
 # AI Server
-cd ai-server
+cd ai
 pip install -r requirements.txt
 python server.py   # http://localhost:8000
 ```
