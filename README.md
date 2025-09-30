@@ -66,9 +66,7 @@ SpeakNote의 궁극적인 개발 목적은 실시간 음성 요약, 문서 기�
 | AI Tier (Python)      | 문서 전처리, RAG 기반 주석 생성, 병렬 작업 관리   | **FastAPI**, Task Manager, Document Parser (UpStageDP), LLM Agents (CRAG)     |
 | Data & Storage        | 데이터 저장 및 파일 관리                        | **MySQL** (정형 데이터), **MongoDB** (주석 스냅샷/버전), File Storage (PDF 원본) |
 
-```
-추후 추가
-```
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/30ca2d25-fe78-4713-abb4-a15e9585f6b6" />
 
 ### 3.2. 사용 기술
 
@@ -97,9 +95,9 @@ SpeakNote는 STT 처리 (Java) 및 주석 생성 (Python)의 두 가지 핵심 �
 | 5. CRAG 주석 생성 | Python 서버는 **Corrective RAG** 에이전트를 실행하여 Query 정제, 문서 적합도 평가를 거쳐 적합도에 따라 (Yes: 문서 기반 답변 / No: 웹 검색 기반 답변)을 도출합니다. | **CRAG**, LLM Agents, UpStage DP                                                  |
 | 6. 결과 전송     | 최종 생성된 주석 결과는 Java 서버의 **Outbound Queue**에 적재된 후, WebSocket을 통해 사용자 브라우저로 실시간 푸시됩니다.              | **Java OutboundQueue**, WebSocket                                                 |
 
-```
-추후 추가
-```
+
+<img width="1300" alt="Image" src="https://github.com/user-attachments/assets/4939bfe5-d12b-4bb6-b651-588b82589548" />
+
 
 ### 4.2. 기능 설명 및 주요 기능 명세서
 | 기능 명              | 입력 (Input)                           | 출력 (Output)                          | 상세 설명 및 특징                                                                                                                                                     |
@@ -170,9 +168,10 @@ Capstone-2025-team-19/
 ```
 
 ## 5. 설치 및 실행 방법
-SpeakNote는 Java Spring Boot, Python FastAPI, Next.js로 구성된 세 가지 독립 서버의 동시 실행을 요구하며, Google STT, UpStage API 키 등의 설정이 필수적입니다. 통합된 실행을 위해 Docker Compose 활용을 권장합니다.
+SpeakNote는 Java Spring Boot, Python FastAPI, Next.js로 구성된 세 가지 독립 서버의 동시 실행을 요구하며, Google STT, UpStage API 키 등의 설정이 필수적입니다.
 
-1. 환경 변수 설정
+### 5.1. 환경 변수 설정
+
 <details>
 <summary>Java Backend (예시)</summary>
   
@@ -270,15 +269,7 @@ NEXT_PUBLIC_GOOGLE_REDIRECT_URI=http://localhost:8080/auth/google/callback
 </details>
 
 
-2. Docker를 이용한 통합 실행 (권장)
-
-프로젝트 루트 디렉토리에서 다음 명령어를 실행하여 3개의 서비스(Java, Python, Next.js)를 동시에 빌드하고 실행합니다.
-```
-예슬 작성
-```
-
-3. 개별 서버 실행
-### 5.1. 설치절차 및 실행 방법
+### 5.2. 설치절차 및 실행 방법 (개별 서버 실행)
 ```bash
 # Frontend
 cd frontend
@@ -294,9 +285,9 @@ cd ai-server
 pip install -r requirements.txt
 python server.py   # http://localhost:8000
 ```
-접속 주소: http://localhost:3000
+접속 주소: http://localhost:3000 (또는 https://speaknote.site)
 
-### 5.2. 오류 발생 시 해결 방법
+### 5.3. 오류 발생 시 해결 방법
 - **DB 연결 오류** → MySQL DB 및 MongoDB 데이터베이스 생성 및 사용자 권한 부여
 - **STT API 제한** → Google Cloud Console에서 API Key 발급
 
@@ -305,12 +296,32 @@ python server.py   # http://localhost:8000
 ## 6. 소개 자료 및 시연 영상
 
 ### 6.1. 프로젝트 소개 자료
-```
-추후 추가
-```
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/43b6e638-3760-450f-bbce-7150c4436840" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1e4b5641-4ede-41ee-bbc9-0e9c61d51d95" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b17dc63a-40ce-4bf5-b81c-9d0aa54fe8f7" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/8bd5d289-f1de-448f-b016-e835c1b35ea6" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/df7352a9-9e7c-4850-9622-73f444ac1c50" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e77310bf-cc17-44d0-9c26-131dbdc379a7" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2b5ddff3-f0e0-4fb0-ade2-5e5d8f0eefe1" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/555f8e17-9513-48d2-9e4f-8c794d6e17f6" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f73fb5c8-b562-4a95-b55e-08147d317299" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/0ff74e27-10b4-4d8f-82fd-6e2e8e60e921" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ab9223d5-7045-4fbe-b3f8-42817949e276" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cfa71c5e-8ebf-4687-8101-c28a17bbef20" width="200"/></td>
+  </tr>
+</table>
+
 
 ### 6.2. 시연 영상
-[[2025 전기 졸업과제] 드레스코딩 팀 소개 영상](https://www.youtube.com/watch?v=CNCycpolmgY)
+
+[![[2025 전기 졸업과제] 드레스코딩팀 소개영상](https://img.youtube.com/vi/CNCycpolmgY/0.jpg)](https://www.youtube.com/watch?v=CNCycpolmgY)
 
 
 ## 7. 팀 구성
